@@ -1,0 +1,11 @@
+
+# Configuration files
+**/credentials.ini
+
+# Downloaded data
+**/data/raw/*
+**/data/cleansed/*
+**/data/processed/*
+**/data/cleansed/*
+**/data/output/*
+**/data/rejected/*

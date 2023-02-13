@@ -1,0 +1,8 @@
+version: '3'
+services:
+  analysis:
+    build: .
+    ports:
+    - 8888:8888  # Jupyter
+    - 8080:8080  # Airflow
+    container_name: bnt-rfp-mini-project
